@@ -17,12 +17,19 @@ This project is an AI-based chatbot system designed to help students get answers
 ## 🗂️ Project Structure
 .
 ├── app.py # Main entry point (router/controller logic)
+
 ├── chat.py # Admin: Upload PDFs and store embeddings in vector DB
+
 ├── studentchat.py # Student: Ask queries and get responses from chatbot
+
 ├── db.py # Stores user info, questions, and answers in a database
+
 ├── login.py # Student/admin login functionality
+
 ├── register.py # New user registration logic
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # You're here!
 
 
@@ -65,4 +72,5 @@ Student Workflow:
 
 
 RUNNING THE APPLICATION
+
 python app.py
